@@ -14,7 +14,7 @@ musicBtn?.addEventListener('click', () => {
   musicBtn.textContent = musicBtn.classList.contains('playing') ? '♫' : '♪';
 });
 
-const birthdayDate = new Date('2027-05-24T00:00:00').getTime();
+const birthdayDate = new Date('2026-08-29T18:00:00').getTime();
 function updateCountdown() {
   const countdown = $('#countdown');
   if (!countdown) return;
@@ -151,7 +151,7 @@ if (reasonGrid) {
         <div class="reason-inner">
           <div class="reason-front">
             <h3>${index + 1}</h3>
-            <p>tap love note</p>
+            <p>tap the note</p>
           </div>
           <div class="reason-back" style="background-image: linear-gradient(to bottom, rgba(62,50,50,.08), rgba(62,50,50,.18) 45%, rgba(62,50,50,.78)), url('${image}');">
             <p>${reason}</p>
