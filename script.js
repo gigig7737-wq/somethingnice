@@ -139,13 +139,10 @@ const reasons = [
   'And finally... because you are Pawpaw, and that is reason enough. 🤍'
 ];
 const reasonGrid = $('#reasonGrid');
-if (reasonGrid) {
-  const imageFolder = reasonGrid.dataset.imageFolder || 'assets';
-  const reasonImages = Array.from({ length: 100 }, (_, index) => `${imageFolder}/${index + 1}.jpg`);
 
+if (reasonGrid) {
   reasonGrid.innerHTML = reasons
     .map((reason, index) => {
-      const image = reasonImages[index % reasonImages.length];
       return `
       <article class="reason-card reveal" tabindex="0">
         <div class="reason-inner">
@@ -153,7 +150,7 @@ if (reasonGrid) {
             <h3>${index + 1}</h3>
             <p>tap the note</p>
           </div>
-          <div class="reason-back" style="background-image: linear-gradient(to bottom, rgba(62,50,50,.08), rgba(62,50,50,.18) 45%, rgba(62,50,50,.78)), url('${image}');">
+          <div class="reason-back">
             <p>${reason}</p>
           </div>
         </div>
