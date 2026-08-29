@@ -351,11 +351,12 @@ button {
 }
 
 .reason-back {
-  color: #fff;
+  color: var(--cocoa);
+  background: rgba(255, 255, 255, 0.92);
   background-position: center;
   background-size: cover;
   transform: rotateY(180deg);
-  place-items: end center;
+  place-items: center;
   padding: 24px 20px 22px;
 }
 
@@ -365,7 +366,7 @@ button {
   font-family: var(--script);
   font-size: 25px;
   line-height: 1.25;
-  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+  text-shadow: none;
 }
 
 .random-reason {
