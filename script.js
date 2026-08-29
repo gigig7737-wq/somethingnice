@@ -165,10 +165,30 @@ $('#randomReasonBtn')?.addEventListener('click', () => {
 });
 
 const envelope = $('#envelope');
-const letterText = `you are one of those rare people who make the world feel gentler just by being in it. Your presence brings a kind of warmth, peace, and beauty that words can never fully explain.
-On your birthday, I just want you to know how deeply you are loved, not just today, but every single day. You deserve happiness that feels real, dreams that slowly turn into reality, and moments so beautiful that your heart wants to keep them forever.
-I hope this year gives you soft mornings, peaceful nights, unexpected smiles, and every little thing your soul has been waiting for.
-Happy Birthday Babuuuuuuuuuuu You are special in ways you may never fully realize, and you deserve magic, love, and endless happiness in every chapter of your life. I Love You🫶`;
+const letterText = `Dear Pawpaw,
+
+Happy Birthday. 🤍
+
+I didn't want to just send you the usual "Happy Birthday, have a nice day" message and leave it there. You deserve something a little more thoughtful than that.
+
+We've been through different moments together. Some were beautiful, some were complicated, and some probably taught us things we didn't expect to learn. But when I look back, I can still appreciate the good memories and the person you were during those moments of my life.
+
+Things between people can change. Feelings can change. Life can take us in completely different directions. And that's okay.
+
+What matters is that I can still wish good things for you without asking for anything in return.
+
+I hope this next chapter brings you more reasons to smile. I hope you meet people who appreciate you, find things that make you excited about life, and have moments where you stop and think, "Yeah... life is actually pretty good."
+
+You deserve those moments.
+
+So wherever life takes you from here, I hope you're doing okay. I hope you're happy. And I hope this birthday is the beginning of a really good year for you.
+
+Happy Birthday, Pawpaw.
+
+From someone who once shared a chapter of your story,
+and is happy to still call you a friend. 🤍
+
+— Hamzah`;
 let hasTypedLetter = false;
 
 envelope?.addEventListener('click', () => {
